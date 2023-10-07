@@ -1,0 +1,24 @@
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #100e1a;
+}
+.logo{
+    color: white;
+    font-family: 'Dancing Script';
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .other a {
+      margin-right: 10px; 
+    }
+  }

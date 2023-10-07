@@ -1,0 +1,54 @@
+* {
+    overflow-y: hidden;
+  }
+  
+  .mc3 {
+    background: #100e1a;
+    padding: 20px;
+    color: white;
+    text-align: center; 
+  }
+  
+  .con2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    border-radius: 10px;
+    margin: 15px;
+    width: calc(50% - 30px); 
+  }
+  
+  .card-title,
+  .card-text {
+    color: white !important;
+  }
+  
+  .card-body {
+    background: #1d1836;
+    color: white;
+    padding: 15px;
+  }
+  
+  .card img {
+    height: auto; 
+    max-height: 250px; 
+    width: 100%; 
+  }
+  
+  @media (max-width: 660px) {
+    *{
+        overflow-y: scroll;
+    }
+    .mc3 {
+      padding-top: 40px;
+    }
+  
+    .card {
+      width: 100%; 
+      margin: 15px 0; 
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.mc {
+    background: #100e1a;
+    height: calc(100vh - 85.5px); 
+    display: flex;
+  }
+  
+.content{
+    padding: 20px;
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2,h5{
+    margin: 10px;
+}
+.hcon{
+    margin: 10px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.pic img{
+    width: 100%;
+}
